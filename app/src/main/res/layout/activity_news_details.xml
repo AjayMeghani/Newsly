@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".newsDetails">
+
+    <androidx.appcompat.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:title="News Detais"
+        android:id="@+id/newsToolbar" />
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/scrollview"
+        android:layout_above="@id/readMore"
+        android:layout_below="@+id/newsToolbar"
+        >
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="280dp"
+                android:id="@+id/last_image"
+                android:scaleType="centerCrop"
+                android:layout_margin="3dp"
+                android:padding="3dp"/>
+            <TextView
+                android:text="Title"
+                android:id="@+id/news_title"
+                android:layout_below="@+id/last_image"
+                android:layout_width="match_parent"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:padding="4dp"
+                android:layout_margin="4dp"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/sub_detais"
+                android:layout_below="@+id/news_title"
+                android:text="Sub Titile"
+                android:layout_margin="4dp"
+                android:padding="3dp"
+                android:textSize="18dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/content_news"
+                android:layout_below="@+id/sub_detais"
+                android:textSize="16dp"
+                android:text="content"
+                android:padding="4dp"
+                />
+        </RelativeLayout>
+    </ScrollView>
+<Button
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/readMore"
+    android:text="Read More"
+    android:textAllCaps="false"
+    android:layout_marginStart="20dp"
+    android:layout_marginEnd="20dp"
+    android:layout_marginBottom="20dp"
+    android:layout_alignParentBottom="true"/>
+</RelativeLayout>

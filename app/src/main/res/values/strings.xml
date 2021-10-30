@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Newsly</string>
+    <string name="explore_share"><![CDATA[Explore & share]]></string>
+    <string name="h2">Tag your favourite news and share with your friends and other people</string>
+    <string name="lets_get_started">Lets get Started </string>
+    <string name="skip">Skip</string>
+    <string name="next">Next</string>
+    <string name="create_content_post"><![CDATA[Create content & post]]></string>
+    <string name="welcome">Welcome</string>
+    <string name="h3">Welcome !</string>
+    <string name="please_sign_up_and_create_blog_post_and_much_more">Please Sign up and create blog post and much more....</string>
+    <string name="or_signup_using">Or Signup Using :</string>
+    <string name="google">google</string>
+    <string name="facebook">facebook</string>
+    <string name="twitter">twitter</string>
+    <string name="by_signing_up_agree_to_our_terms_condition"><![CDATA[By Signing up agree to our T&C]]></string>
+    <string name="sign_up">Sign Up</string>
+    <string name="already_have_a_account_login">Already have a Account? Login.</string>
+    <string name="welcome_back">Welcome Back !</string>
+    <string name="or_login_with">Or Login Using :</string>
+    <string name="don_t_have_a_account_sign_up">Don\'t have a account? Sign Up</string>
+    <string name="forget_password">Forget Password?</string>
+    <string name="login">LogIn</string>
+
+    <string name="facebook_app_id">559105008438184</string>
+    <string name="fb_login_protocol_scheme">fb559105008438184</string>
+
+</resources>
